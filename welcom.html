@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>welcompage</title>
+    <script defer src="login.js"></script>
+    <style>
+      body {
+        overflow-y: hidden !important;
+        background-image: url("sunset.jpg") !important;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+
+        color: aliceblue;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+        transition: all 2s;
+      }
+      body:hover{
+        font-size: 50px;
+      }
+     
+    </style>
+  </head>
+  <body>
+   welcome ....<span id="reslut"></span>     &#128155; !
+    
+    <script>
+      document.getElementById("reslut").innerHTML = localStorage.getItem("fullname");
+     
+
+
+    </script>
+  </body>
+</html>

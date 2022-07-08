@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="login.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>login</title>
+  </head>
+  <body>
+
+
+    <header>
+     <div id="div">
+      <button id="arabic">العربية</button>
+       <button id="english">English</button>
+     </div>
+
+
+     <div>
+      <button id="moon"><i class="fa-solid fa-moon" ></i>
+      </button>
+     </div>
+    </header>
+
+<!-- ======================================= -->
+    <div class="continer">
+      <section>
+        <p id="title" class="procced">please login to proceed</p>
+        <form action="welcom.html"  onsubmit="save()">
+          <p class="emil">
+            <span><i class="fa-solid fa-id-badge"></i></span>
+            <input type="text" name="" id="FullName" placeholder="Enter your name"  />
+          </p>
+
+          <p class="emil">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" name="" id="email" placeholder="Email"  />
+          </p>
+
+          <p class="password">
+            <span><i class="fa-solid fa-lock"> </i></span>
+            <input
+              type="password"
+              name=""
+              id="password"
+              placeholder="password " 
+            />
+          </p>
+
+
+          <label id="remmberme">
+            <input
+              type="checkbox"
+              name="remmber me"
+              id="remmberme"
+              value="remmber me"
+            />
+            remmber me<br />
+          </label>
+          <input type="submit" value="login" id="login" />
+        </form>
+      </section>
+
+      <!-- seconf section for soical merdia  -->
+      <section>
+        <p id="so">login using soical media</p>
+        <div class="icon">
+          <a href=""> <i class="fa-brands fa-facebook-square"></i> </a>
+          <a href=""> <i class="fa-brands fa-twitter"></i> </a>
+          <a href=""> <i class="fa-brands fa-google"></i> </a>
+        </div>
+      </section>
+
+   
+    </div>
+
+    <div  class=" sec-2">
+      <section  class="info">
+        <a href="" id="sign">sign up</a>
+        <a href="" id="forget">forget password</a>
+        <a href="" id="need">need help</a>
+      </section>
+
+
+    </div>
+  </body>
+</html>
